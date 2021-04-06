@@ -1,0 +1,40 @@
+body{
+	background-color: #002447;
+}
+#header{
+	color: #EEEEEE;
+	background-color: black;
+	font-size: 40px;
+	margin: 10px
+}
+
+#nav{
+	color: #777;
+	font-size: 21px;
+	font-weight: normal;
+	width: 220px;
+	background-color: black;
+
+}
+.article{
+	float: left;
+	width: 85%;
+	font-size: 21px;
+	font-weight: normal;
+	background-color: black;
+	
+
+}
+#footer{
+	clear: both;
+	background-color: #0000ff;
+	font-size: 30px;
+	width: 99%;
+	margin: 10px
+}
+.titulo{
+	color: #EEEEEE;
+	background-color: none;
+	font-size: 40px;
+	margin: 20px
+}

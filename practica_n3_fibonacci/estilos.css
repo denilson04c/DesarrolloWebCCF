@@ -1,0 +1,23 @@
+label{
+	font-family: sans-serif;
+	background-color: red;
+	width: 100px;
+	height: 60px;
+}
+#datos{
+	background-color: #000000f5;
+	
+}
+#boton{
+	width: 80px;
+	height: 50px;
+	color: black;
+	background-color: #141490;
+	border:double;
+	
+	text-decoration: none;
+
+
+}
+
+#boton:hover{ background: #032525 }

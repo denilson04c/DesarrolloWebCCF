@@ -1,0 +1,40 @@
+table{
+	width: 100%;
+	border: 1px solid #000;
+	border-spacing: 0;
+	height: 300px;
+	
+}
+
+tr,th,td,thead,tbody{
+	width: 25%;
+	border-spacing: 0;
+	border: 1px solid #000;
+	height: 50px;
+}
+#clear{
+	width: auto;
+	border-spacing: 0;
+	height: auto;
+}
+.c1{
+	
+	background-color: white;
+}
+.c2{
+	
+	background-color: red;
+}
+
+.f1{
+	
+	background-color: red;
+}
+.f2{
+	
+	background-color: yellow;
+}
+.f3{
+	
+	background-color: green;
+}

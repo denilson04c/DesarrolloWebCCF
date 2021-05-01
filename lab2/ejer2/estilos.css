@@ -1,0 +1,23 @@
+#valora,#valorb,#valorc{
+	background: orange;
+	width: 150px;
+	float: left;
+	
+}
+#boton{
+
+	width: 150px;
+	float: auto;
+}
+#mult,#men{
+	background: orange;
+	width: 250px;
+	height: 50%;
+	
+}
+.multipli,.menor{
+	background: yellow;
+	width: 250px;
+	height: 50%;
+
+}

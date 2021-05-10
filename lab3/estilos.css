@@ -1,0 +1,17 @@
+#general{
+	width: 200%;
+	height: 150px;
+	background-color: yellow;
+	background: gray;
+}
+.alumnos{
+	
+	vertical-align: middle;
+	background-color: yellow;
+	background: #66FFFF;
+  	
+  	border: thin solid #000000;
+  	height: 150px;
+  	text-align:  height;
+  	margin: auto;
+}

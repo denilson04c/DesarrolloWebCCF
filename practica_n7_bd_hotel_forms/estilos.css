@@ -1,0 +1,21 @@
+label{
+	color: black;
+	background-color: gray;
+	background: gray;
+}
+td{
+	background: gray;
+	
+	border: 1px solid black;
+	border-style: 1px solid black;
+	border: 3px solid black;
+}
+th{
+	background-color: black;
+	border-style: 1px solid black;
+	border: 3px solid black;
+}
+table{
+	border-style: 1px solid black;
+	border: 3px solid black;
+}

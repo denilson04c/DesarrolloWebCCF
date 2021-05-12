@@ -1,0 +1,16 @@
+div{
+	width: auto;
+	height: auto;
+}
+.naranja{
+	border-style: 4px solid #f7a713;
+	border:1px solid #f7a713 ;
+}
+.naranja2{
+	border:1px solid #f7a713 ;
+	background-color: #f7a713;
+	position: center;
+}
+.p,.s{
+	float: left;
+}

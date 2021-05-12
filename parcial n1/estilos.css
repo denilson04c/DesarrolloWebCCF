@@ -1,0 +1,147 @@
+body{
+	width: 905px;
+}
+#cabecera{
+	margin: 1px;
+	width: 900px
+	height:auto;
+
+	
+	border:1px solid black ;
+	
+}
+.cabecera1{
+
+width: 110px;
+	float: left;
+	height: auto;
+}
+.cabecera2{
+background: white;
+width: auto;
+	float: left;
+	height: auto;
+}
+.titulo{
+color: #FF0000;
+}
+.facultad{
+	color: #4C9BD3 ;
+}
+.sub1,.sub2{
+	float: left;
+	height: auto;
+}
+.rojo{
+color: red;
+float: left;
+	height: auto;
+}
+.amarillo{
+color: yellow;
+float: left;
+	height: auto;
+}
+.verde{
+color: green;
+float: left;
+	height: auto;
+}
+.cabecera3{
+
+width: 110px;
+	float: right;
+	height: auto;
+}
+#cuerpo{
+margin: 1px;
+	width: 900px
+	height:auto;
+	border:1px solid black ;
+}
+.datos{
+width: 770px;
+
+float: left;
+}
+.preguntas{
+width: 130px;
+float: right;
+
+background-color: #366F91;
+}
+.aux{
+	border-right:5px;
+	border-top: 5px;
+	border-left: 5px;
+}
+#p1,#p2,#p3,#p4{
+	width: 100px;
+	height: 35px;
+	border:1px solid black ;
+}
+#p1{
+background-color: red;
+}
+#p2{
+background: yellow;
+
+}
+#p3{
+background-color: green;	
+}
+#p4{
+	background-color: gray;
+}
+.pr3,.pr4,.pr5{
+background-color:transparent;
+border: 0;
+position: center;
+cursor:pointer;
+
+}
+#pie{
+	background-color: #4C9BD3;
+margin: 1px;
+	width: 900px
+	height:50px;
+
+	
+	border:1px solid black ;
+}
+
+
+#tabla1{
+	background-color: #0000FF;
+	color: white;
+}
+#tabla2{
+	background-color: red;
+}
+table{
+	width: 50%;
+	border: 1px solid #000C00;
+	border-spacing: 0;
+	border-style: : groove;
+	height:30%;
+	border-color: black;
+	
+}
+th,thead{
+	width: 50px;
+	border-spacing: 0;
+	border: 1px solid #000C00;
+	height: 50px;
+	border-style: : groove;
+	
+	border-color: black;
+}
+td,tr,tbody{
+	width: 50px;
+	border-spacing: 0;
+	border: 1px solid #000C00;
+	height: 50px;
+	border-style: : groove;
+	
+	border-color: black;
+}

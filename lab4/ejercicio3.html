@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<form>
+		<label>rojo</label>
+		<input type="radio" name="color" value="" id="c1">
+		<label>amarillo</label>
+		<input type="radio" name="color" id="c2">
+		<label>verde</label>
+		<input type="radio" name="color" id="c3">
+
+		<input type="submit" name="" value="enviar">
+	</form>
+<div name="nombre" style="background: gray;width:100px;height:50px;">
+	<p>Choque Cruz Flavio Denylon</p>
+</div>
+<script>
+	var n=document.getElementByName('nombre');
+	var colorc=document.getElementByName('color');
+	/*var c2=document.getElementById('c2');
+	var c3=document.getElementById('c3');*/
+	n[0].value.document.body.style.backgroundColor = "red";
+	//n=document.body.style.backgroundColor = "red";
+	console.log(n);
+	console.log(colorc);
+</script>
+</body>
+</html>

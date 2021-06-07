@@ -6,27 +6,50 @@
 </head>
 <body>
 <form>
-	a:<input type="number" name="n1">
-	b:<input type="number" name="n2">
-	c:<input type="number" name="n2">
-	<input type="submit" name="">
-<div style="background:blue;" id="resultado">
+	<div id="a" style="background-color:gray; border: 1px solid;">
+		a:<input type="number" id="a">
+	primer numero</div>
 	
+	<div id="b" style="background-color:gray; border: 1px solid;">
+		b:<input type="number" id="b">
+	segundo numero</div>
+	
+	<div id="c" style="background-color:gray; border: 1px solid;">
+		c:<input type="number" id="c">
+	tercer numero</div>
+	
+	<div style="background:gray; border: 1px solid;">
+		<input type="submit" onclick="accion()" value="enviar">
+	</div>
+	
+<div style="background:gray; width: 100px;" id="resultado">
+	color
 </div>
 </form>
 <script>
-	var a=document.getElementByName('n1');
-	var b=document.getElementByName('n2');
-	var c=document.getElementByName('n3');
-	if (a>b && a>c) {
-		document.getElementById('resultado').innerHTML=a;
+	
+	
+
+	function accion(){
+		var a=parseInt(document.getElementById('a').value);
+		var b=parseInt(document.getElementById('b').value);
+		var c=parseInt(document.getElementById('c').value);
+		if (a>b && a>c) {
+			
+			a.style.backgroundColor = "blue";
+			c.style.backgroundColor = "red";
+		}
+		if (b>c && b>a) {
+			b.style.backgroundColor = "blue";
+			a.style.backgroundColor = "red";
+		}
+		if (c>b && c>a) {
+			c.style.backgroundColor = "blue";
+			a.style.backgroundColor = "red";
+		}
+		
 	}
-	if (b>c) {
-document.getElementById('resultado').innerHTML=b;
-	}
-	if (c>b) {
-document.getElementById('resultado').innerHTML=c;
-	}
+	console.log(a+b+c);
 </script>
 </body>
 </html>

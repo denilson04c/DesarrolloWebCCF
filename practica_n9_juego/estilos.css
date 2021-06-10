@@ -1,0 +1,34 @@
+div{
+	border: 1px solid orange;
+}
+
+.fondo{
+	float: left;
+	width: auto;
+	height: auto;
+	
+}
+#imagen{
+	float: right;
+	width: 200px;
+	height: 249px;
+	border: 1px solid black;
+}
+.caja{
+	width: 20px;
+	margin-left: 10px;
+}
+#letras{
+	background-color: lightblue;
+	
+	height: 50px;
+}
+.cuerpo{
+	background:white;
+	height: 250px;
+}
+.pie{
+	background:lightblue;
+	height: 50px;
+	
+}

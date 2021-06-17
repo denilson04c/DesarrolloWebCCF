@@ -1,0 +1,16 @@
+td{
+	background: gray;
+	
+	border: 1px solid black;
+	border-style: 1px solid blue;
+	border: 3px solid blue;
+}
+th{
+	background-color: blue;
+	border-style: 1px solid blue;
+	border: 3px solid blue;
+}
+table{
+	border-style: 1px solid blue;
+	border: 3px solid blue;
+}

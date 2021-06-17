@@ -1,0 +1,67 @@
+body{
+	font-family: sans-serif;
+	font-size: 20px;
+	background: gray;
+}
+head{
+	background-attachment: fixed;
+}
+.cuerpo{
+	width: 1000px;
+	height: 500px;
+  	border: 2px solid black;
+  	text-align: center;
+  	
+}
+#contenido{
+	width: 700px;
+	height: 500px;
+	background: #fe6600;
+	float: left;
+	overflow: scroll;
+	margin: 0px auto;
+	
+	
+}
+input{
+	border: 2px solid black;
+	
+	font-family: sans-serif;
+	font-size: 20px;
+}
+textarea{
+	border: 2px solid black;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: -38px;
+}
+#opciones{
+	width: 300px;
+	height: 500px;
+	background: blueviolet;
+	float: right;
+}
+#imagen{
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+}
+button{
+	cursor: pointer;
+	border: 2px solid black;
+	width: 100px;
+	height: 40px;
+	background: #fe6600;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.boton{
+	cursor: pointer;
+	border: 2px solid black;
+	width: 150px;
+	height: 40px;
+	background: blueviolet;
+	font-family: sans-serif;
+	font-size: 20px;
+}

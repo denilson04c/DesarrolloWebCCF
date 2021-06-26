@@ -1,0 +1,25 @@
+$(document).ready(function(){
+	$("#yo").click(function(){
+		$("#cuerpo").load("#cuerpo");
+	});
+});
+$(document).ready(function(){
+	$("#miciudad").click(function(){
+		$("#cuerpo").load("miciudad.html");
+	});
+});
+$(document).ready(function(){
+	$("#mifamilia").click(function(){
+		$("#cuerpo").load("mifamilia.html");
+	});
+});
+$(document).ready(function(){
+	$("#misamigos").click(function(){
+		$("#cuerpo").load("misamigos.html");
+	});
+});
+$(document).ready(function(){
+	$("#mishobbis").click(function(){
+		$("#cuerpo").load("mishobbis.html");
+	});
+});

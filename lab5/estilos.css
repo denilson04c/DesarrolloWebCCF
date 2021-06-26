@@ -1,0 +1,52 @@
+#cuerpo{
+	border: 2px solid seagreen;
+	width: 80%;
+	height: 90%;
+	margin-left: 80px;
+	margin-right: 40px;
+	margin-top: 40px;
+}
+
+#contenido{
+	margin:  auto;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	background-color: lightblue;
+	border: 2px solid blue;
+	width: 50%;
+	height: 200px;
+}
+
+label{
+	border: 2px solid #4a0e4a;
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+}
+select{
+	border: 2px solid seagreen;
+	width: 30%;
+	padding: 12px 20px;
+}
+option{
+    border: 2px solid seagreen;
+    width: 30%;
+    padding: 12px 20px;
+}
+.in{
+	border: 2px solid seagreen;
+	width: 30%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+}
+
+.boton{
+	border: 2px solid seagreen;
+	width: 40%;
+	height: 60%;
+ 	font-size: 20px;
+ 	background: lightblue;
+ 	margin:  auto;
+ 	margin-left: 20%;
+}

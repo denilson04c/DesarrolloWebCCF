@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<div style="margin-left:5%; background: white; margin-right: 5%;">
+<table border="2" class="table table-striped">
+	<tr>
+		<td style="background: orange; width: 15%;">Número de enlaces de la página </td>
+		<td style="width: 25%;" id="p1"></td>
+	</tr>
+	<tr>
+		<td style="background: orange; width: 15%;">Valor del contenido id=datos
+</td>
+		<td style="width: 25%;" id="p2"></td>
+	</tr>
+	<tr>
+		<td style="background: orange; width: 15%;">Valor seleccionado en el radio button con 
+name=”edad”
+</td>
+		<td style="width: 25%;" id="p3"></td>
+	</tr>
+	<tr>
+		<td style="background: orange; width: 15%;">Numero de párrafos de la pagina</td>
+		<td style="width: 25%;" id="p4"></td>
+	</tr>
+</table>
+<button onclick="total()">ver</button>
+</div>
+<script>
+	function total(){
+		
+		var enlaces=document.getElementsByTagName('a');
+		var datos=(document.getElementById("datos").value);
+		var edad=document.getElementsByName('edad');
+		var parrafo=document.getElementsByTagName('p');
+		console.log("cons"+enlaces.tagName);
+		console.log("cons"+datos.tagName);
+		console.log("cons"+edad.tagName);
+		console.log("cons"+parrafo.tagName);
+	document.getElementById('p1').innerHTML=enlaces;
+	document.getElementById('p2').innerHTML=datos;
+	document.getElementById('p3').innerHTML=edad;
+	document.getElementById('p4').innerHTML=parrafo;
+	}
+	
+</script>
+</body>
+</html>

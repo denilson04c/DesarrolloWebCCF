@@ -1,0 +1,23 @@
+<div class="row" class="table-responsive">
+	<div class="col"><strong>
+		Tabla del <input type="number" id="n" max="10"></strong>
+	</div>
+	<div class="col" class="form-check mb-2">
+		<label for="">
+		<input type="radio" class="form-check-input" name="operacion" value="s">suma</label>
+		<label for="">
+		<input type="radio" class="form-check-input" name="operacion" value="r">resta</label><br>
+		<label for="">
+		<input type="radio" class="form-check-input" name="operacion" value="m">multiplicación</label>
+		<label for="">
+		<input type="radio" class="form-check-input" name="operacion" value="d">división
+		</label>
+	</div>
+	<div class="col">
+		Hasta el <input type="number" id="m" min="1">
+	</div>
+	<div class="col">
+		<button id="btn" onclick="operacion()">Mostrar Tabla</button>
+	</div>
+</div>
+<script src="ajax.js"></script>

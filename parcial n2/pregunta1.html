@@ -27,23 +27,25 @@ name=”edad”
 		<td style="width: 25%;" id="p4"></td>
 	</tr>
 </table>
-<button onclick="total()">ver</button>
+<button onClick="accion()">ver</button>
 </div>
 <script>
-	function total(){
-		
-		var enlaces=document.getElementsByTagName('a');
-		var datos=(document.getElementById("datos").value);
-		var edad=document.getElementsByName('edad');
-		var parrafo=document.getElementsByTagName('p');
-		console.log("cons"+enlaces.tagName);
-		console.log("cons"+datos.tagName);
-		console.log("cons"+edad.tagName);
-		console.log("cons"+parrafo.tagName);
+function accion() {
+	
+	var enlaces=document.getElementsByTagName('p');
+	var datos=(document.getElementById("datos").value);
+	var edad=document.getElementsByName('edad');
+	var parrafo=document.getElementsByTagName('p');
+		/*console.log("cons"+enlaces.tagName);
+		console.log("cons"+datos.tagName);*/
+	var total=enlaces.length;
+	alert("hay"+total);
+		console.log("cons"+edad[0].tagName);
+		/*console.log("cons"+parrafo.tagName);
 	document.getElementById('p1').innerHTML=enlaces;
 	document.getElementById('p2').innerHTML=datos;
 	document.getElementById('p3').innerHTML=edad;
-	document.getElementById('p4').innerHTML=parrafo;
+	document.getElementById('p4').innerHTML=parrafo;*/
 	}
 	
 </script>
